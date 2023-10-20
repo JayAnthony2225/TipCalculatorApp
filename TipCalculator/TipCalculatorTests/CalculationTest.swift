@@ -36,7 +36,7 @@ final class CalculationTest: XCTestCase {
         let tip = calculation.calculateTip(of: enteredAmount, with: tipSlider)
         
         // Then (Assert)
-       XCTAssertNil(tip)
+       XCTAssertNil(tip, "commet")
     }
     
     
